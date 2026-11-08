@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>EMPRESA SYSTEM | Tourism</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+
+        <h2 class="logo">EMPRESA SYSTEM</h2>
+
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#destinos">Destinos</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section class="hero" id="inicio">
+
+            <p class="subtitle">EXPLORA EL MUNDO CON NOSOTROS</p>
+
+            <h1>Vive nuevas experiencias.</h1>
+
+            <p class="description">
+                Descubre lugares extraordinarios,
+                recorridos y experiencias inolvidables.
+            </p>
+
+            <button id="explorarBtn">
+                Explorar destinos
+            </button>
+
+        </section>
+
+        <section class="destinos" id="destinos">
+
+            <h2>Destinos destacados</h2>
+
+            <div class="destination-card">
+
+                <h3>Yelapa, Jalisco</h3>
+
+                <p>
+                    Descubre playas, naturaleza
+                    y experiencias increíbles.
+                </p>
+
+                <button class="infoBtn">
+                    Más información
+                </button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer id="contacto">
+        EMPRESA SYSTEM © 2026
+    </footer>
+
+    <script src="js/app.js"></script>
+
+</body>
+</html>
